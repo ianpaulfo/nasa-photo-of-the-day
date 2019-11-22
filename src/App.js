@@ -1,15 +1,17 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
+
+import NasaCard from "./Components/NasaCard";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      
+      <h1>Welcome to the <span>NASA</span>🚀 Photo of the Day!</h1>
+      {
+      <NasaCard />
+}
     </div>
   );
 }
